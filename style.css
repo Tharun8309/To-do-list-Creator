@@ -1,0 +1,43 @@
+*{   margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#heading
+{
+    text-align: center;
+   
+}
+.grid-container
+{   
+   display: grid; 
+   grid-template-columns: 175px 175px 100px;
+   justify-content: center;
+   margin-top: 5px;
+    
+}
+.first
+{
+    height: 40px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+#add
+{
+    width: 80px;
+    background-color: rgb(104, 248, 104);
+    border-radius: 5px;
+}
+#delete
+{
+    background-color: rgb(255, 46, 46);
+    margin-bottom: 2px;
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+    
+}
+.second
+{
+  margin-bottom: 10px;
+}
